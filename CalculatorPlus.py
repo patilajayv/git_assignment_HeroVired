@@ -57,6 +57,6 @@ if __name__== "main":
 
 # TODO: Uncomment and test the square root feature. # num3 = 25
 
-# print(f"The square root of {num3} = {calculator.square_root(num3)}")
+ print(f"The square root of {num3} = {calculator.square_root(num3)}")
 
  

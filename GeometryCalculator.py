@@ -23,8 +23,9 @@ if __name__== "main":
 
  
 
-# TODO: Implement the feature to calculate the area of a rectangle # length = 10
+# TODO: Implement the feature to calculate the area of a rectangle # 
+    length = 10
 
-# width = 6
+    width = 6
 
-# print(f"The area of the rectangle with length {length} and width {width} ={calculator.calculate_rectangle_area(length, width)}")
+    print(f"The area of the rectangle with length {length} and width {width} ={calculator.calculate_rectangle_area(length, width)}")

@@ -1,7 +1,7 @@
 # git_assignment_HeroVired
 ------------------------------------------------------------------------Question 1 Steps-------------------------------------------------------------------------------
-For checking which on which branch i am used git branch
-Then git checkout dev
+#For checking which on which branch i am used git branch
+#Then git checkout dev
 For checking which on which branch i am used git branch
 I have created file name CalculatorPlus.py
 Copied given code given in assignment as it is and pasted in CalculatorPlus.py

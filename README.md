@@ -33,7 +33,7 @@
 - After testing i have merged and dev to main branch and created release with name of version 2
 
   
----------------------------------------------------------------Question 1 Steps----------------------------------------------------------------
+---------------------------------------------------------------Question 1 Ends----------------------------------------------------------------
 
 ---------------------------------------------------------------Question 2 Steps----------------------------------------------------------------
 - I opened the cmd the i entered the command git lfs install to Git LFS initialise Git LFS 
@@ -54,8 +54,9 @@
 - I then git lfs pull
 - I able see actual size of file
 
----------------------------------------------------------------Question 2 Steps----------------------------------------------------------------
-----------------------------------------------------------------Question 3 Steps---------------------------------------------------------------
+---------------------------------------------------------------Question 2 Ends---------------------------------------------------------------------------
+
+---------------------------------------------------------------Question 3 Steps---------------------------------------------------------------------------
 - created a branch named geometry-calculator from main branch in GitHub
 - To cloned Repo with git clone https://github.com/patilajayv/git_assignment_HeroVired
 - Then to avail all branch I used git pull
@@ -90,3 +91,5 @@
 - which was approved and reviewed by sting979 (collaborators)
 - then finally after approval I merged both branch (feature/circle-area and feature/rectangle-area) into dev
 - and the dev merged to main branch
+  
+--------------------------------------------------------------------Question 3 Ends------------------------------------------------------------------------

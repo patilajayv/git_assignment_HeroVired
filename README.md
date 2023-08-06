@@ -14,10 +14,10 @@
 - To move file to staging state i have ran command git add .
 - git status to see file in in staging state
 - Then to commit file i used the command git commit -m "CalculatorPlus added" and git push
-- Then i merged the dev branch TO main branch with help github by creating pull request and merged the code to main branch
+- Then i merged the dev branch TO main branch with help GitHub by creating pull request and merged the code to main branch
 - Then i have created release with name of version 1
 - Then i have added keval as collaborator which goes username sting979
-- Then i have created new branch feature/sqrt from dev branch with help of github
+- Then i have created new branch feature/sqrt from dev branch with help of GitHub
 - Then to avail all branch i used git pull
 - For checking which on which branch i am used git branch
 - Then i switched branch feature/sqrt with help command git checkout feature/sqrt
@@ -25,10 +25,10 @@
 - Then git stash 
 - Then switched back to dev branch wuth help of git checkout dev
 - Then fixed the code of divide function
-- I commited the code with git add . and git commit -m "bug fixed" and git push
-- Then switched back to feature/sqrt branch wuth help of git checkout feature/sqrt
-- git stash list and git stash apply "stash@{0}" to retrive change of square root feature 
-- I commited the code with git add . and git commit -m "new feature" and git push
+- I committed the code with git add . and git commit -m "bug fixed" and git push
+- Then switched back to feature/sqrt branch with help of git checkout feature/sqrt
+- git stash list and git stash apply "stash@{0}" to retrieve change of square root feature 
+- I committed the code with git add . and git commit -m "new feature" and git push
 - I have created pull request to merge of feature/sqrt to dev which approved by sting979
 - After testing i have merged and dev to main branch and created release with name of version 2
 
@@ -38,21 +38,55 @@
 ---------------------------------------------------------------Question 2 Steps----------------------------------------------------------------
 - I opened the cmd the i entered the command git lfs install to Git LFS initialise Git LFS 
 - To cloned Repo with git clone https://github.com/patilajayv/git_assignment_HeroVired
-- I have created branch named lfs in github from main branch
+- I have created branch named lfs in GitHub from main branch
 - Then to avail all branch i used git pull
 - For checking which on which branch i am used git branch
 - I taken checkout of brach lfs with git checkout lfs 
 - I added sample file which has size more 200 mb in lfs branch folder
-- to treat file as lfs i used command git lfs trcak file.bin
+- to treat file as lfs i used command git lfs track  file.bin
 - then git add .
 - then git commit -m "lfs file"
 - then git push
 - verify that lfs is file present to new machine
-- I opened the cmd the i entered the command git lfs install to Git LFS initialise Git LFS
+- I opened the cmd the i entered the command git lfs install to Git LFS initialize Git LFS
 - To cloned Repo with git clone https://github.com/patilajayv/git_assignment_HeroVired
-- I taken checkout of brach lfs with git checkout lfs
+- I taken checkout of branch lfs with git checkout lfs
 - I then git lfs pull
 - I able see actual size of file
 
 ---------------------------------------------------------------Question 2 Steps----------------------------------------------------------------
 ----------------------------------------------------------------Question 3 Steps---------------------------------------------------------------
+- created a branch named geometry-calculator from main branch in GitHub
+- To cloned Repo with git clone https://github.com/patilajayv/git_assignment_HeroVired
+- Then to avail all branch I used git pull
+- For checking which on which branch i used git branch
+- I taken checkout of branch geometry-calculator with git checkout geometry-calculator
+- created file name GeometryCalculator.py in geometry-calculator branch and tested it
+- then git add .
+- git commit -m "first feature of geometry-calculator"
+- git push
+- created 2 branch from geometry-calculator branch feature/rectangle-area and feature/circle-area in GitHub
+- I taken checkout of branch feature/circle-area with git checkout feature/circle-area
+- then uncommented the code of circle-area feature 
+- then git stash to stash the code
+- git status for checking working directory is clean
+- I taken checkout of branch feature/rectangle-area with git checkout feature/rectangle-area
+- then uncommented the code of rectangle-area feature 
+- then git stash to stash the code
+- git status for checking working directory is clean
+- I taken checkout of branch feature/circle-area with git checkout feature/circle-area
+- git stash list checkout which changes needs to retrieve 
+- then git stash apply "stash@{1}"
+- then git add .
+- git commit -m "circle-area feature"
+- git push
+- I taken checkout of branch feature/rectangle-area with git checkout feature/rectangle-area
+- git stash list checkout which changes needs to retrieve 
+- then git stash apply "stash@{0}"
+- then git add .
+- git commit -m "rectangle-area feature"
+- git push
+- created to 2 pull requests for merge of code feature/circle-area >> dev and feature/rectangle-area >> dev
+- which was approved and reviewed by sting979 (collaborators)
+- then finally after approval I merged both branch (feature/circle-area and feature/rectangle-area) into dev
+- and the dev merged to main branch

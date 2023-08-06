@@ -1,5 +1,10 @@
 # git_assignment_HeroVired
 ---------------------------------------------------------------Question 1 Steps----------------------------------------------------------------
+- Created a repository name called as git_assignment_HeroVired
+- Created a branch from main branch
+- Cloned repository in my local machine by command                                                                 
+  git clone https://github.com/patilajayv/git_assignment_HeroVired.git
+- Then to avail all branch i used git pull
 - For checking which on which branch i am used git branch
 - Then git checkout dev
 - For checking which on which branch i am used git branch
@@ -31,3 +36,23 @@
 ---------------------------------------------------------------Question 1 Steps----------------------------------------------------------------
 
 ---------------------------------------------------------------Question 2 Steps----------------------------------------------------------------
+- I opened the cmd the i entered the command git lfs install to Git LFS initialise Git LFS 
+- To cloned Repo with git clone https://github.com/patilajayv/git_assignment_HeroVired
+- I have created branch named lfs in github from main branch
+- Then to avail all branch i used git pull
+- For checking which on which branch i am used git branch
+- I taken checkout of brach lfs with git checkout lfs 
+- I added sample file which has size more 200 mb in lfs branch folder
+- to treat file as lfs i used command git lfs trcak file.bin
+- then git add .
+- then git commit -m "lfs file"
+- then git push
+- verify that lfs is file present to new machine
+- I opened the cmd the i entered the command git lfs install to Git LFS initialise Git LFS
+- To cloned Repo with git clone https://github.com/patilajayv/git_assignment_HeroVired
+- I taken checkout of brach lfs with git checkout lfs
+- I then git lfs pull
+- I able see actual size of file
+
+---------------------------------------------------------------Question 2 Steps----------------------------------------------------------------
+----------------------------------------------------------------Question 3 Steps---------------------------------------------------------------
